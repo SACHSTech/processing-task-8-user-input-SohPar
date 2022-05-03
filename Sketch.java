@@ -9,13 +9,14 @@ public class Sketch extends PApplet {
   boolean mousePressed;
   int mouseClicked;
   int mouseDragged;
-	
+
+
   /**
    * Called once at the beginning of execution, put your size all in this method
    */
   public void settings() {
 	// put your size call here
-    size(400, 400);
+    size(300, 300);
   }
 
   /** 
@@ -23,7 +24,7 @@ public class Sketch extends PApplet {
    * values here i.e background, stroke, fill etc.
    */
   public void setup() {
-    background(156, 154, 145);
+    background(235, 226, 216);
   }
 
   /**
@@ -99,9 +100,5 @@ public void keyPressed () {
       }
     } 
 }
-  
-
-
-      
 
 
